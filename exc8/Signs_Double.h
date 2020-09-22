@@ -14,5 +14,19 @@ void OutDouble(double a);
 #include"Signs.h"
 typedef struct DoublePolym DoublePolym;
 DoublePolym* InicDoublePolym(double* Arr, int Size);
-void PrintDoublePolym(DoublePolym* One);
+void  PrintDoublePolym(DoublePolym* One);
+double* DoublePolymToDoubleArr(DoublePolym* One, int* Size);
+DoublePolym* DeleteFreeZeroInDoublePolym(DoublePolym* One);
+DoublePolym* SumDoublePolym(DoublePolym* One, DoublePolym* Two);
+void SumUpDoublePolym(DoublePolym** One, DoublePolym* Two);
+DoublePolym* MinesDoublePolym(DoublePolym* One, DoublePolym* Two);
+void MinesUpDoublePolym(DoublePolym** One, DoublePolym* Two);
+DoublePolym* PrDoublePolym(DoublePolym* One, DoublePolym* Two);
+void PrUpDoublePolym(DoublePolym** One, DoublePolym* Two);
+DoublePolym* DelDoublePolym(DoublePolym* One, DoublePolym* Two);
+void DelUpDoublePolym(DoublePolym** One, DoublePolym* Two);
+DoublePolym* RemainDoublePolym(DoublePolym* One, DoublePolym* Two);
+void RemainUpDoublePolym(DoublePolym** One, DoublePolym* Two);
+DoublePolym* NodDoublePolym(DoublePolym* One, DoublePolym* Two);
+double ValueInDoublePolym(DoublePolym* One, double Value);
 #endif

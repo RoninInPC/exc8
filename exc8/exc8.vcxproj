@@ -141,6 +141,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="Signs.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Signs_Double.c" />
     <ClCompile Include="Signs_Int.c" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Signs.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="Signs_Double.h" />
     <ClInclude Include="Signs_Int.h" />
